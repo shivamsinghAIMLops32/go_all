@@ -32,6 +32,6 @@ func main() {
 	// rune int32
 	var cry uint32 = '😭'
 	var wine rune = '🍷'
-	fmt.Println(cry)
+	fmt.Println(cry) // 128557 which is 32 bit number
 	fmt.Println(wine)
 }
