@@ -49,7 +49,6 @@ func main() {
 
 	location = string(ll)
 	println(location)
-
 	// intersting way
 	// as string return only a readonly header for location annd a length so we do something cooll with unsafe
 	// but here we are commiting  that we won't be changing the ll slice ever cause now a string newLL points to the same header add of ll so ya changing an string isn't allowed
