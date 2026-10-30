@@ -9,6 +9,11 @@ type (
 )
 
 func main() {
+	// nil map
+	var o map[int]string
+	if o == nil {
+		fmt.Println("o is nil bro")
+	}
 	// score map[type]type
 	mc5Score := score{
 		"jason": 1,
